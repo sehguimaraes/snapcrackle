@@ -19,7 +19,7 @@ function snapCrackle(maxValue) {
         }
         text += cont + ", ";
     }
-    console.log(text);
+    return text;
 }
 
 snapCrackle();

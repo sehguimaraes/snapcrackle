@@ -13,13 +13,10 @@ function snapCrackle(maxValue) {
             text += "SnapCrackle, ";
             continue;
         }
-        if (cont % 2 === 0) {
-            text += "Prime, ";
-            continue;
-        }
+        
         text += cont + ", ";
     }
-    console.log(text);
+    return text;
 }
 
 snapCrackle();
